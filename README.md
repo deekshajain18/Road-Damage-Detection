@@ -24,7 +24,7 @@ This repository contains code for a road damage detection and classification mod
   
 ## Usage
 - Training the Model (main2.py)
-  
+  <br/>
 -Place your dataset in the appropriate folders (e.g., normal and damage folders).
 
 -Configure the script by modifying the IMG_SIZE variable and other parameters if needed.
