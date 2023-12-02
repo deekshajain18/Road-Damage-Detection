@@ -24,12 +24,19 @@ This repository contains code for a road damage detection and classification mod
   
 ## Usage
 - Training the Model (main2.py)
+  
 -Place your dataset in the appropriate folders (e.g., normal and damage folders).
+
 -Configure the script by modifying the IMG_SIZE variable and other parameters if needed.
+
 -The script will train the model, display loss and accuracy plots, and save the trained model as damageroad_detection_model.h5.
+
 -Classifying Road Images (test2.py)
+
 -Ensure you have a trained model (damageroad_detection_model.h5) in the same directory.
+
 -Enter the path to the road image when prompted.
+
 -The script will classify the road image and display the result.
 
 ## Additional Notes
