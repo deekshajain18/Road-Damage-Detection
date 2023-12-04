@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 
 # Load the pre-trained model
-model = load_model('pothole_detection_model.h5')
+model = load_model('Road-Damage-Detection\pothole_detection_model.h5')
 
 def preprocess_image(image_path):
     # Load and preprocess the image

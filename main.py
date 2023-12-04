@@ -39,10 +39,10 @@ def assign_label(img, label):
 X = []  
 Z = []  
 IMG_SIZE = 100
-nor = 'normal'
-pot = 'pothole'
+nor = 'Road-Damage-Detection\clearroad'
+pot = 'Road-Damage-Detection\pothole'
 
-make_train_data('normal', nor)
+make_train_data('clearroad', nor)
 make_train_data('pothole', pot)
 
 """Plotting images"""
